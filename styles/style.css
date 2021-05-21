@@ -14,8 +14,8 @@ header {
     background-image: url("hero-banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
-    
+    background-position: center;
+
 }
 
 
@@ -29,6 +29,13 @@ header li {
     
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
 .logo {
     margin-top: -10px;
     margin-left: -80px;
@@ -39,4 +46,79 @@ header li {
 
 .menu {
     display: flex;
+}
+
+.grid {
+    display: -webkit-flex;
+    display:flex;
+    margin: 0px 212px;
+    padding: 0px 30px 20px 30px;
+  
+  }
+.col {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+.fixed {
+    width:250px;
+  }
+  
+.fluid {
+    flex: 1;
+  }
+
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #084a4e;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: light;
+    color: #084a4e;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.youtube {
+    background-color: #fff;
+    margin: 50px 10px 30px 40px;
+    padding-bottom: 20px;
+    box-shadow: 10px 5px 10px #b3b3b3;
+    border-radius: 15px;
+}
+
+.three-column {
+    margin-top: 80px;
+    background-color: #f4f4f4;
+    box-shadow: 10px 5px 10px #b3b3b3;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+.three-column img {
+    width: 80px;
+      
+}
+
+h3 {
+    color: #084a4e;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #084a4e;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-container.button {
+    margin-top:40px;
 }
