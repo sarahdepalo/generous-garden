@@ -4,4 +4,4 @@ This site was created as part of an assignment to draw inspiration from a Dribbl
 
 [Dribble Site Used for Inspiration](https://dribbble.com/shots/15695214--Atmental-Coaching-Landing-Page)
 
-![Screenshot of the site](images/screenshot.png)
+![Screenshot of the site](images/readme-image.png)
