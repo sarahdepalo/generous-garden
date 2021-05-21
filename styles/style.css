@@ -124,23 +124,16 @@ h3 {
 
 
 
-a:link {
+a:link, a:visited {
     background-color: #084a4e;
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
-a:visited {
-    background-color: #084a4e;
-    border-radius: 20px;
-    padding: 10px 20px 10px 20px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
 
 a:hover {
     background-color: #084a4e;
@@ -152,3 +145,20 @@ a:hover {
 }
 
 
+.menu-link:link {
+    background-color: #fff;
+    color: #528083;
+    text-decoration: none;
+    padding: 0px 10px 10px 10px;
+}
+
+.menu-link:visited {
+    background-color: #fff;
+    color: #528083;
+}
+
+.menu-link:hover {
+    background-color: #fff;
+    color: #75c92c;
+    text-decoration: underline;
+}
