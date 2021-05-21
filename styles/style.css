@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #fff;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    background-image: url("hero-banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+    
+}
+
+
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px 0px 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #528083;
+    
+}
+
+.logo {
+    margin-top: -10px;
+    margin-left: -80px;
+    display:flex;
+    display: flex-start;
+}
+
+
+.menu {
+    display: flex;
+}
